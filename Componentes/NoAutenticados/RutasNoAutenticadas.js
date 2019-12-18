@@ -2,7 +2,6 @@ import React from 'react';
 import { Text, View, Button } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator } from 'react-navigation-stack';
-//import RutasNoAutenticadas from './Componentes/NoAutenticados/RutasNoAutenticadas';
 
 export default class RutasNoAutenticadas extends React.Component {
     render() {

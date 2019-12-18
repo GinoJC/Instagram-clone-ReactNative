@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
-export default class Search extends React.Component {
+export default class Comentarios extends Component {
 
+  static navigationOptions = {
+    tabBarVisible: false
+  };
+  
   render() {
     const { navigation } = this.props;
     return (
       <View style={styles.container}>
-        <Text> Search </Text>
+        <Text> Comentarios </Text>
         <Button
-          title='Publicacion'
-          onPress={()=>{navigation.navigate('Publicacion')}}
+          title='Autor'
+          onPress={()=>{navigation.navigate('Autor')}}
         />
       </View>
     );

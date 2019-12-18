@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default class Follow extends Component {
+export default class Follow extends React.Component {
 
   render() {
     return (
